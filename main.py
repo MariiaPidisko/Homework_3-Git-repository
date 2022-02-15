@@ -66,7 +66,7 @@ def emails_delete():
     cur.execute(sql)
     con.commit()
     con.close()
-    print('Hello')
+    print('Hello world')
     return 'OK'
 
 
