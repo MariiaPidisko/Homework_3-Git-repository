@@ -2,7 +2,6 @@ from flask import Flask, request
 import sqlite3
 
 app = Flask(__name__)
-print('HHHEEELLLOOO')
 
 
 @app.route("/emails/create/")
