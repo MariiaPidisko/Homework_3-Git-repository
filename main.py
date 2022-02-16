@@ -3,6 +3,7 @@ import sqlite3
 
 app = Flask(__name__)
 
+
 @app.route("/emails/create/")
 def emails_create():
     name = request.args['name']
